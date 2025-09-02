@@ -1,0 +1,126 @@
+CRITICAL - 2025-08-19 10:21:27 --> ErrorException: Undefined array key "user_order_id"
+[Method: POST, Route: api/v1/customer/downloadInvoice]
+in APPPATH/Views/website/order/invoice.php on line 34.
+ 1 APPPATH/Views/website/order/invoice.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/order/invoice.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CustomerAppAPI.php(8062): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->downloadInvoice()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-19 10:21:29 --> ErrorException: Undefined array key "user_order_id"
+[Method: POST, Route: api/v1/customer/downloadInvoice]
+in APPPATH/Views/website/order/invoice.php on line 34.
+ 1 APPPATH/Views/website/order/invoice.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/order/invoice.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CustomerAppAPI.php(8062): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->downloadInvoice()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-19 10:21:37 --> ErrorException: Undefined array key "user_order_id"
+[Method: POST, Route: api/v1/customer/downloadInvoice]
+in APPPATH/Views/website/order/invoice.php on line 34.
+ 1 APPPATH/Views/website/order/invoice.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/order/invoice.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CustomerAppAPI.php(8062): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->downloadInvoice()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-19 10:21:38 --> ErrorException: Undefined array key "user_order_id"
+[Method: POST, Route: api/v1/customer/downloadInvoice]
+in APPPATH/Views/website/order/invoice.php on line 34.
+ 1 APPPATH/Views/website/order/invoice.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/order/invoice.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CustomerAppAPI.php(8062): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->downloadInvoice()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-19 10:21:51 --> ErrorException: Undefined array key "user_order_id"
+[Method: POST, Route: api/v1/customer/downloadInvoice]
+in APPPATH/Views/website/order/invoice.php on line 34.
+ 1 APPPATH/Views/website/order/invoice.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/order/invoice.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CustomerAppAPI.php(8062): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->downloadInvoice()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-19 10:21:56 --> ErrorException: Undefined array key "user_order_id"
+[Method: POST, Route: api/v1/customer/downloadInvoice]
+in APPPATH/Views/website/order/invoice.php on line 34.
+ 1 APPPATH/Views/website/order/invoice.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/order/invoice.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CustomerAppAPI.php(8062): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->downloadInvoice()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-19 10:21:59 --> ErrorException: Undefined array key "user_order_id"
+[Method: POST, Route: api/v1/customer/downloadInvoice]
+in APPPATH/Views/website/order/invoice.php on line 34.
+ 1 APPPATH/Views/website/order/invoice.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/order/invoice.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CustomerAppAPI.php(8062): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->downloadInvoice()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-19 10:22:02 --> ErrorException: Undefined array key "user_order_id"
+[Method: POST, Route: api/v1/customer/downloadInvoice]
+in APPPATH/Views/website/order/invoice.php on line 34.
+ 1 APPPATH/Views/website/order/invoice.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/order/invoice.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CustomerAppAPI.php(8062): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->downloadInvoice()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-19 10:23:43 --> ErrorException: Undefined array key "user_order_id"
+[Method: POST, Route: api/v1/customer/downloadInvoice]
+in APPPATH/Views/website/order/invoice.php on line 34.
+ 1 APPPATH/Views/website/order/invoice.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/order/invoice.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CustomerAppAPI.php(8062): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->downloadInvoice()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

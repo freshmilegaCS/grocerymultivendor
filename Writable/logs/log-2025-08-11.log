@@ -1,0 +1,100 @@
+CRITICAL - 2025-08-11 08:49:56 --> ErrorException: Undefined array key 14
+[Method: POST, Route: admin/product/bulk-import/insert]
+in APPPATH/Controllers/Admin/Product.php on line 812.
+ 1 APPPATH/Controllers/Admin/Product.php(812): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->bulkImportFile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-11 08:50:06 --> ErrorException: Undefined array key 14
+[Method: POST, Route: admin/product/bulk-import/insert]
+in APPPATH/Controllers/Admin/Product.php on line 812.
+ 1 APPPATH/Controllers/Admin/Product.php(812): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->bulkImportFile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-11 08:50:09 --> ErrorException: Undefined array key 14
+[Method: POST, Route: admin/product/bulk-import/insert]
+in APPPATH/Controllers/Admin/Product.php on line 812.
+ 1 APPPATH/Controllers/Admin/Product.php(812): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->bulkImportFile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-11 10:24:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${seller.logo}"
+[Method: GET, Route: $%7Bseller.logo%7D]
+in SYSTEMPATH/Router/Router.php on line 738.
+ 1 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-11 10:24:55 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${product.main_img}"
+[Method: GET, Route: $%7Bproduct.main_img%7D]
+in SYSTEMPATH/Router/Router.php on line 738.
+ 1 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-11 18:34:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${seller.logo}"
+[Method: GET, Route: $%7Bseller.logo%7D]
+in SYSTEMPATH/Router/Router.php on line 738.
+ 1 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-11 18:34:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${product.main_img}"
+[Method: GET, Route: $%7Bproduct.main_img%7D]
+in SYSTEMPATH/Router/Router.php on line 738.
+ 1 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-11 19:28:18 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/coupon/add]
+in APPPATH/Controllers/Admin/Coupon.php on line 141.
+ 1 APPPATH/Controllers/Admin/Coupon.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Coupon->add()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-11 19:28:23 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/coupon/add]
+in APPPATH/Controllers/Admin/Coupon.php on line 141.
+ 1 APPPATH/Controllers/Admin/Coupon.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Coupon->add()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-11 23:20:53 --> ErrorException: Undefined array key "customer_app_refund_policy"
+[Method: GET, Route: refund-policy]
+in APPPATH/Controllers/Website/Home.php on line 452.
+ 1 APPPATH/Controllers/Website/Home.php(452): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Website\Home->refundPolicy()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

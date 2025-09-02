@@ -1,0 +1,124 @@
+ERROR - 2025-08-12 01:04:48 --> mysqli_sql_exception: Column 'delivery_method' cannot be null in /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/BaseModel.php(839): CodeIgniter\Model->doInsert()
+#6 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/Model.php(800): CodeIgniter\BaseModel->insert()
+#7 /home/u337588111/domains/blinkme.online/app/Controllers/Website/Order.php(857): CodeIgniter\Model->insert()
+#8 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Website\Order->placeCODOrder()
+#9 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/u337588111/domains/blinkme.online/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/u337588111/domains/blinkme.online/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#14 {main}
+CRITICAL - 2025-08-12 01:04:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'delivery_method' cannot be null
+[Method: POST, Route: placeCODOrder]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Website/Order.php(857): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Website\Order->placeCODOrder()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-12 01:04:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'delivery_method' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/Website/Order.php(857): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Website\Order->placeCODOrder()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-12 01:04:48 --> [Caused by] mysqli_sql_exception: Column 'delivery_method' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/Website/Order.php(857): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Website\Order->placeCODOrder()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-12 13:48:41 --> ErrorException: Undefined array key "customer_app_refund_policy"
+[Method: GET, Route: refund-policy]
+in APPPATH/Controllers/Website/Home.php on line 452.
+ 1 APPPATH/Controllers/Website/Home.php(452): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Website\Home->refundPolicy()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-12 15:32:06 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: language]
+in APPPATH/Controllers/Website/Language.php on line 35.
+ 1 APPPATH/Controllers/Website/Language.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Website\Language->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-12 18:28:33 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: product/dnv-red-chilli-sabudana-papad]
+in APPPATH/Views/website/product/productDetails.php on line 190.
+ 1 APPPATH/Views/website/product/productDetails.php(190): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/product/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Website/Product.php(707): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Website\Product->getProductDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-12 18:28:39 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: product/dnv-red-chilli-sabudana-papad]
+in APPPATH/Views/website/product/productDetails.php on line 190.
+ 1 APPPATH/Views/website/product/productDetails.php(190): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/product/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Website/Product.php(707): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Website\Product->getProductDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-12 18:28:42 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: product/dnv-red-chilli-sabudana-papad]
+in APPPATH/Views/website/product/productDetails.php on line 190.
+ 1 APPPATH/Views/website/product/productDetails.php(190): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/website/product/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Website/Product.php(707): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Website\Product->getProductDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

@@ -1,0 +1,201 @@
+CRITICAL - 2025-08-20 06:52:09 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: admin/order-report/generateOrderInsights]
+in APPPATH/Controllers/Admin/Report.php on line 109.
+ 1 APPPATH/Controllers/Admin/Report.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Report->generateOrderInsights()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 09:26:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "category/categoryOrder.php"
+[Method: GET, Route: admin/category_order]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/Category.php(694): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->categoryOrder()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 09:27:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "category/categoryOrder.php"
+[Method: GET, Route: admin/category_order]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/Category.php(694): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->categoryOrder()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 09:27:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "category/categoryOrder.php"
+[Method: GET, Route: admin/category_order]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/Category.php(694): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->categoryOrder()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 09:27:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "category/categoryOrder.php"
+[Method: GET, Route: admin/category_order]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/Category.php(694): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->categoryOrder()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 09:27:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "category/categoryOrder.php"
+[Method: GET, Route: admin/category_order]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/Category.php(694): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->categoryOrder()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 09:27:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "category/categoryOrder.php"
+[Method: GET, Route: admin/category_order]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/Category.php(694): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->categoryOrder()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 09:28:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "category/categoryOrder.php"
+[Method: GET, Route: admin/category_order]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/Category.php(694): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->categoryOrder()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 12:01:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "category/categoryOrder.php"
+[Method: GET, Route: admin/category_order]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/Category.php(694): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->categoryOrder()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 12:43:51 --> DivisionByZeroError: Division by zero
+[Method: POST, Route: api/v1/customer/fetchProductBySubcategoryId]
+in APPPATH/Controllers/CustomerAppAPI.php on line 1835.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchProductBySubcategoryId()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 12:43:54 --> DivisionByZeroError: Division by zero
+[Method: POST, Route: api/v1/customer/fetchProductBySubcategoryId]
+in APPPATH/Controllers/CustomerAppAPI.php on line 1835.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchProductBySubcategoryId()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 12:46:03 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: api/v1/customer/fetchOrderSummary]
+in APPPATH/Libraries/CartSummery.php on line 98.
+ 1 APPPATH/Libraries/CartSummery.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CustomerAppAPI.php(4852): App\Libraries\CartSummery->calculateDeliveryChargeForAddress()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchOrderSummary()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 12:46:03 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: api/v1/customer/fetchOrderSummary]
+in APPPATH/Libraries/CartSummery.php on line 98.
+ 1 APPPATH/Libraries/CartSummery.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CustomerAppAPI.php(4852): App\Libraries\CartSummery->calculateDeliveryChargeForAddress()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchOrderSummary()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 12:46:04 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: api/v1/customer/fetchOrderSummary]
+in APPPATH/Libraries/CartSummery.php on line 98.
+ 1 APPPATH/Libraries/CartSummery.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CustomerAppAPI.php(4852): App\Libraries\CartSummery->calculateDeliveryChargeForAddress()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchOrderSummary()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 12:46:10 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: api/v1/customer/fetchOrderSummary]
+in APPPATH/Libraries/CartSummery.php on line 98.
+ 1 APPPATH/Libraries/CartSummery.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CustomerAppAPI.php(4852): App\Libraries\CartSummery->calculateDeliveryChargeForAddress()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchOrderSummary()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 12:46:10 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: api/v1/customer/fetchOrderSummary]
+in APPPATH/Libraries/CartSummery.php on line 98.
+ 1 APPPATH/Libraries/CartSummery.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CustomerAppAPI.php(4852): App\Libraries\CartSummery->calculateDeliveryChargeForAddress()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchOrderSummary()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 12:46:10 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: api/v1/customer/fetchOrderSummary]
+in APPPATH/Libraries/CartSummery.php on line 98.
+ 1 APPPATH/Libraries/CartSummery.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CustomerAppAPI.php(4852): App\Libraries\CartSummery->calculateDeliveryChargeForAddress()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchOrderSummary()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-20 12:46:10 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: api/v1/customer/fetchOrderSummary]
+in APPPATH/Libraries/CartSummery.php on line 98.
+ 1 APPPATH/Libraries/CartSummery.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CustomerAppAPI.php(4852): App\Libraries\CartSummery->calculateDeliveryChargeForAddress()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchOrderSummary()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

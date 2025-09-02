@@ -1,0 +1,38 @@
+CRITICAL - 2025-08-15 08:23:05 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: admin/category/edit/18]
+in APPPATH/Views/category/editCategory.php on line 56.
+ 1 APPPATH/Views/category/editCategory.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u337588111/domains/blinkme.online/app/Views/category/editCategory.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/Category.php(480): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->edit()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-15 13:19:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "category/categoryOrder.php"
+[Method: GET, Route: admin/category_order]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/Category.php(694): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->categoryOrder()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-15 13:19:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "category/categoryOrder.php"
+[Method: GET, Route: admin/category_order]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/Category.php(694): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->categoryOrder()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

@@ -1,0 +1,217 @@
+CRITICAL - 2025-08-21 11:49:24 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: api/v1/customer/fetchSubCategoriesByCategoryId]
+in APPPATH/Controllers/CustomerAppAPI.php on line 1526.
+ 1 APPPATH/Controllers/CustomerAppAPI.php(1526): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchSubCategoriesByCategoryId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:30 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:34 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:35 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:43 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:45 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:45 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:49 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:52 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:53 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:55 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:44:55 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:45:13 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:45:14 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:45:15 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:45:15 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:45:16 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:45:17 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 16:45:17 --> ErrorException: Undefined array key 1
+[Method: POST, Route: admin/category/update]
+in APPPATH/Controllers/Admin/Category.php on line 652.
+ 1 APPPATH/Controllers/Admin/Category.php(652): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Category->update()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 17:25:14 --> DivisionByZeroError: Division by zero
+[Method: POST, Route: api/v1/customer/fetchProductBySubcategoryId]
+in APPPATH/Controllers/CustomerAppAPI.php on line 1835.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchProductBySubcategoryId()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 17:25:17 --> DivisionByZeroError: Division by zero
+[Method: POST, Route: api/v1/customer/fetchProductBySubcategoryId]
+in APPPATH/Controllers/CustomerAppAPI.php on line 1835.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchProductBySubcategoryId()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-21 17:25:29 --> DivisionByZeroError: Division by zero
+[Method: POST, Route: api/v1/customer/fetchProductBySubcategoryId]
+in APPPATH/Controllers/CustomerAppAPI.php on line 1835.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CustomerAppAPI->fetchProductBySubcategoryId()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
